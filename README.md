@@ -4,29 +4,27 @@
 # Buildroot MangoPi-MQ
 *Buildroot Package for MangoPi-MQ Devices. Support Allwinner D1-H D1s T113*
 
-
 ---
 
 <br>
 
  Vendor  | Device      | Chip    | U-Boot  | Linux   | Defconfig |
 :------: | :---------: | :-----: | :-----: | :-----: | :-------: |
+*MangoPi*  | *MQ* | `D1s` | `Tina` `UBoot 2018` | `Tina` `Linux 5.4.61` | `mangopi_mq_defconfig` |
+*MangoPi*  | *MQ Dual* | `T113` | `longan` `UBoot 2018` | `longan` `Linux 5.4.61` | `mangopi_mq_dual_defconfig` |
+*MangoPi*  | *MQ Pro* | `D1-H` | `Tina` `UBoot 2018` | `Tina` `Linux 5.4.61` | `mangopi_mq_pro_defconfig` |
 *YuzukiHD* | *YuzukiRuler* | `F1C200s` | `2020.07` | `5.4.180` | `yuzukihd_yuzukiruler_defconfig`
 *YuzukiHD* | *YuzukiCore F1* | `F1C200s` | `2020.07` | `5.4.180` | `yuzukihd_yuzukicore_f1_defconfig` |
 *YuzukiHD* | *YuzukiCK1N* | `V3x` | `2022.01` | `5.4.180` | `yuzukihd_yuzukick1n_defconfig` |
 *YuzukiHD* | *R11 86 Panel* | `R11` | `2022.01` | `5.4.180` | `yuzukihd_r11_86panel_defconfig` |
 *Awol*     | *Nezha* | `D1-H` | `Tina` `UBoot 2018` | `Tina` `Linux 5.4.61` | `awol_nezha_defconfig` |
 *Awol*     | *Nezha-D1s* | `D1s` | `Tina` `UBoot 2018` | `Tina` `Linux 5.4.61` | `awol_nezha_d1s_defconfig` |
-*MangoPi*  | *MQ* | `D1s` | `Tina` `UBoot 2018` | `Tina` `Linux 5.4.61` | `mangopi_mq_defconfig` |
-*MangoPi*  | *MQ Dual* | `T113` | `longan` `UBoot 2018` | `longan` `Linux 5.4.61` | `mangopi_mq_dual_defconfig` |
-*MangoPi*  | *MQ Pro* | `D1-H` | `Tina` `UBoot 2018` | `Tina` `Linux 5.4.61` | `mangopi_mq_pro_defconfig` |
 
 <br>
 
 ---
 
 <br>
-
 
 ## Fork Tree
 
@@ -36,8 +34,8 @@
   
    **[Tiny200]**   <br><br>
    ⤷ **[MangoPi-R]**   <br><br>
-    ⤷ **YuzukiSBC**   
-    ⤷ **MangoPiSBC**   
+    ⤷ **YuzukiSBC**   <br><br>
+     ⤷ **MangoPiSBC**   
 <br>
 </kbd>
 
@@ -50,7 +48,6 @@
 ## About Buildroot
 
 </div>
-
 
 ```
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded
@@ -84,8 +81,6 @@ The Online documentation can be found at http://buildroot.org/docs.html
 7) "skernel" for save linux config
 8) "suboot" for save uboot config
 ```
-
-
 
 <!----------------------------------------------------------------------------->
 
