@@ -1423,6 +1423,13 @@ pull up or pull down(default 0), driver level(default 1), data>
 	status = "okay";
 };
 
+&wm8782: stereo-adc {
+	compatible = "wlf,wm8782";
+	Vdda-supply = <&vdda_supply>;
+	Vdd-supply = <&vdd_supply>;
+	status = "okay";
+};
+
 /*
  *usb_port_type: usb mode. 0-device, 1-host, 2-otg.
  *usb_detect_type: usb hotplug detect mode. 0-none, 1-vbus/id detect, 2-id/dpdm detect.
