@@ -65,10 +65,12 @@ The Online documentation can be found at http://buildroot.org/docs.html
 ```
 1) source envsetup.sh
 2) lunch
-3) make mangopi_xxx_defconfig
+3) make mangopi_xxx_defconfig make mangopi_mq_dual_defconfig
 4) make
 5) wait while it compiles
 6) find the kernel, bootloader, root filesystem, etc. in output/images
+7) sudo dd if=./sdcard.img of=/dev/mmcblk0
+
 ```
 ## Tips
 ```
